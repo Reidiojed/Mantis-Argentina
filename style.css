@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    --night-blue: #1E304D;
+    --mantis-silver: #E5E5E5;
+    --mantis-green: #8c9441;
+    background-color: var(--night-blue);
+    padding-top: 2em;
+    }
+
+.navbar ul {
+   flex-direction: row;
+}
+
+.navbar ul li a{
+    margin-right: 0.5em;
+}
+
+.nav-item .fa {
+    display: block;
+    min-width: 1em;
+}  
+
+.lang {
+    margin: 0.2em;
+}
+
+/* ISOLOGO */
+.isologo {
+    text-align: center;
+}
+
+.isologo img {
+    height: 50%;
+}
+
+.isologo h1 {
+    font-family: Montserrat;
+    font-style: bold;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    margin-top: 0.5em;
+
+    /* identical to box height */
+    text-align: center;
+}
+
+.isologo hr {
+    color: var(--night-blue);
+    border: 1px solid;
+    border-color: var(--night-blue);
+    margin-bottom: 2em;
+}
+
+/* FOTO PRINCIPAL */
+
+.content img {
+    max-width: 100%;
+}
+
+.bienvenida {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.bienvenida ul {
+    padding: 0px;
+    padding-bottom: 2em;
+}
+
+.bienvenida .redes {
+    margin: 3em;
+}
+
+.bienvenida .redes li{
+    margin: 1em;
+    width: 3em;
+    height: 3em;
+}
+
+.bienvenida .redes li a:hover{
+    color: var(--mantis-green);
+}
+
+.redes .fa {
+    font-size: 2em;
+}
+
+
+.main {
+    background-color: var(--mantis-silver);
+    color: var(--night-blue);
+    padding-top: 0em;
+}
+
+a {
+    color: var(--night-blue);
+}
+
+a:hover {
+    color: var(--mantis-green);
+    text-decoration: none;
+}
+
+.fa {
+    font-size: 1.5em;
+}
+
+/* FOOTER */
+
+footer {
+    color: var(--mantis-silver);
+    padding-bottom: 2em;
+}
+
+footer a {
+    color: var(--mantis-silver)
+}
+
+footer ul li {
+    list-style: none;
+}
